@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../Assets/img/nmklogo4(1).svg'
 import navIcon1 from '../Assets/img/nav-icon1.svg'
-import navIcon2 from '../Assets/img/icons8-discord.svg'
+import navIcon2 from '../Assets/img/hashnode.svg'
 import navIcon3 from '../Assets/img/icons8-github.svg'
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 //you can put your logo instead of nmk.
@@ -47,12 +47,12 @@ export const NavBar = () => {
               <Nav className="me-auto">
                 <Nav.Link href="#home"className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#skills"className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#services"className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('services')}>Services</Nav.Link>
+                <Nav.Link href="#Services"className={activeLink === 'Services' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('Services')}>Services</Nav.Link>
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
                     <a href = 'https://github.com/iamnmk'><img src={navIcon1} alt="" /></a>
-                    <a href = 'https://github.com/iamnmk'><img src={navIcon2} alt="" /></a>
+                    <a href = 'https://nmk.hashnode.dev/'><img src={navIcon2} alt="" /></a>
                     <a href = 'https://github.com/iamnmk'><img src={navIcon3} alt="" /></a>
                 
                 

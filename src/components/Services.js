@@ -1,9 +1,12 @@
 import { Container,Row,Col,Nav,Tab} from "react-bootstrap";
 import { ServiceCard} from "./Servicecard";
-import projImg1 from "../Assets/img/header_new.jpeg";
-import projImg2 from "../Assets/img/header_new.jpeg";
-import projImg3 from "../Assets/img/header_new.jpeg";
+import projImg1 from "../Assets/img/ecom.jpeg";
+import projImg2 from "../Assets/img/fullstack.jpeg";
+import projImg3 from "../Assets/img/weddes.jpeg";
+import projImg5 from "../Assets/img/backend.jpeg";
+import projImg4 from "../Assets/img/defvops.jpeg";
 import colorSharp2 from "../Assets/img/color-sharp2.png";
+import 'animate.css';
 //import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -28,12 +31,12 @@ export const Services = () => {
               {
                 title: "DevOps",
                 description: "Containerization, CI/CD pipelines and Deployment",
-                imgUrl: projImg1,
+                imgUrl: projImg4,
               },
               {
                 title: "Backend Development",
                 description: "Node and PHP",
-                imgUrl: projImg2,
+                imgUrl: projImg5,
               }
         ];
 
@@ -52,13 +55,7 @@ export const Services = () => {
                       <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                           <Nav.Item>
-                            <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                          </Nav.Item>
-                          <Nav.Item>
-                            <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                          </Nav.Item>
-                          <Nav.Item>
-                            <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                            <Nav.Link eventKey="first">Service</Nav.Link>
                           </Nav.Item>
                         </Nav>
                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -75,12 +72,6 @@ export const Services = () => {
                                 })
                               }
                             </Row>
-                          </Tab.Pane>
-                          <Tab.Pane eventKey="section">
-                            <p>First Section.</p>
-                          </Tab.Pane>
-                          <Tab.Pane eventKey="third">
-                            <p>Second Section</p>
                           </Tab.Pane>
                         </Tab.Content>
                       </Tab.Container>

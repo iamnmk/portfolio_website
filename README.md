@@ -1,1 +1,1 @@
-This is a personal portfolio website (responive) created by using React and Bootstrap.
+This is a personal portfolio website (responsive) created by using React and Bootstrap.

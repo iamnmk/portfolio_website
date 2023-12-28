@@ -48,7 +48,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Here you post your skills that you have</p>
+                            <p>Some of my many skills</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src ={skill2} alt="Image"/>
