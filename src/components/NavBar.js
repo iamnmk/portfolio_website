@@ -4,8 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../Assets/img/nmklogo4(1).svg'
 import navIcon1 from '../Assets/img/nav-icon1.svg'
-import navIcon2 from '../Assets/img/nav-icon2.svg'
-import navIcon3 from '../Assets/img/nav-icon3.svg'
+import navIcon2 from '../Assets/img/icons8-discord.svg'
+import navIcon3 from '../Assets/img/icons8-github.svg'
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 //you can put your logo instead of nmk.
 
