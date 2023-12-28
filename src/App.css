@@ -313,3 +313,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+.img-container {
+  width: 100%; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}

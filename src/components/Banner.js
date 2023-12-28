@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../Assets/img/ss_new.png";
+import headerImg from "../Assets/img/header_new.jpeg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
@@ -46,6 +46,7 @@ export const Banner = () => {
     }
   }
 
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi, I'm Numaan Khan!!`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend", "Backend", "DevOps" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a versatile Full Stack Developer and seasoned DevOps Engineer dedicated to crafting robust, scalable, and efficient solutions that bridge the gap between development and operations. With a passion for innovation and a keen eye for detail, I thrive in dynamic environments where I can seamlessly navigate the entire software development lifecycle.
 
-</p>
+                  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -67,7 +68,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" className="img-container"/>
                 </div>}
             </TrackVisibility>
           </Col>
