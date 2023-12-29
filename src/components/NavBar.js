@@ -51,13 +51,16 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                    <a href = 'https://github.com/iamnmk'><img src={navIcon1} alt="" /></a>
+                    <a href = 'https://www.linkedin.com/in/numaan-khan-a596252a7/'><img src={navIcon1} alt="" /></a>
                     <a href = 'https://nmk.hashnode.dev/'><img src={navIcon2} alt="" /></a>
                     <a href = 'https://github.com/iamnmk'><img src={navIcon3} alt="" /></a>
                 
                 
                 </div>
+                <a href='https://www.linkedin.com/in/numaan-khan-a596252a7/'>
                 <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect!</span> </button>
+                </a>
+              
               </span>
             </Navbar.Collapse>
           </Container>

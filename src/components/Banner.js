@@ -60,7 +60,6 @@ export const Banner = () => {
                   <p>I am a versatile Full Stack Developer and seasoned DevOps Engineer dedicated to crafting robust, scalable, and efficient solutions that bridge the gap between development and operations. With a passion for innovation and a keen eye for detail, I thrive in dynamic environments where I can seamlessly navigate the entire software development lifecycle.
 
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

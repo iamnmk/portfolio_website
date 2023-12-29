@@ -49,13 +49,10 @@ export const Services = () => {
                     {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                       <h2>Services</h2>
-                      <p>These are the services I provide for Remote Work.
-                        Hope it helps :P
-                      </p>
                       <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                           <Nav.Item>
-                            <Nav.Link eventKey="first">Service</Nav.Link>
+                            <Nav.Link eventKey="first">These are the Services I provide remotely :P</Nav.Link>
                           </Nav.Item>
                         </Nav>
                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
